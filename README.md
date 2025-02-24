@@ -4,7 +4,32 @@
 ![Gurobi](https://img.shields.io/badge/Gurobi-Optimization-orange)
 ![Tkinter](https://img.shields.io/badge/Tkinter-GUI-green)
 
-This is a Python application for optimizing patient scheduling using the Gurobi optimization library and Tkinter for the graphical user interface (GUI).
+
+## Project Description
+
+This project is a Python-based application for optimizing patient scheduling. It uses `tkinter` for the graphical user interface (GUI) and `gurobipy` for solving the optimization problem. The application allows scheduling patients based on various constraints and objectives, such as minimizing the number of days with more than one country, balancing time usage across time slots, and more.
+
+## Project Structure
+
+The project is organized as follows:
+```
+patient_scheduling/
+│
+├── gui/
+│ ├── main_window.py # Main application window
+│ ├── availability_window.py # Window for managing daily availability
+│ ├── preview_window.py # Window for solution preview
+│
+├── model/
+│ ├── optimization.py # Optimization model
+│
+├── data/
+│ ├── load_data.py # Loading patient data
+│ ├── export_data.py # Exporting results to Excel
+│ └── utils.py # Utility functions
+│
+└── main.py # Application entry point
+```
 
 ## Features
 - **Load Patient Data**: Import patient data from an Excel file.
