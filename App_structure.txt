@@ -1,0 +1,16 @@
+patient_scheduling/
+│
+├── gui/
+│   ├── main_window.py
+│   ├── availability_window.py
+│   ├── preview_window.py
+│
+├── model/
+│   ├── optimization.py
+│
+├── data/
+│   ├── load_data.py
+│   ├── export_data.py
+│   └── utils.py
+│
+└── main.py
