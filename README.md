@@ -39,7 +39,7 @@ patient_scheduling/
 
 ## Requirements
 - Python 3.8+
-- Gurobi Optimizer (with a valid license)
+- Gurobi Optimizer
 - Libraries: `pandas`, `tkinter`, `openpyxl`
 
 ## Installation
